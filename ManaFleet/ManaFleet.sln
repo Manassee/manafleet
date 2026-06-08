@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManaFleet", "ManaFleet\ManaFleet.csproj", "{970AE3D1-1476-4493-B76D-7A3961212F89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleSeeder", "VehicleSeeder\VehicleSeeder.csproj", "{9DE2CDE9-EC85-469B-ADDA-3C8CA7DDDE0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{970AE3D1-1476-4493-B76D-7A3961212F89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{970AE3D1-1476-4493-B76D-7A3961212F89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{970AE3D1-1476-4493-B76D-7A3961212F89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{970AE3D1-1476-4493-B76D-7A3961212F89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DE2CDE9-EC85-469B-ADDA-3C8CA7DDDE0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DE2CDE9-EC85-469B-ADDA-3C8CA7DDDE0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DE2CDE9-EC85-469B-ADDA-3C8CA7DDDE0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DE2CDE9-EC85-469B-ADDA-3C8CA7DDDE0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
