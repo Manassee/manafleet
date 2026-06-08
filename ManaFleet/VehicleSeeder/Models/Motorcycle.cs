@@ -4,7 +4,7 @@ namespace VehicleSeeder.Models;
 
 public class Motorcycle
 {
-    public Guid Id {get; set;} = Guid.NewGuid();
+    public Guid Id {get; set;} 
     
     public string? UnitNumber {get; set;}
     public string? LicensePlate { get; set; }

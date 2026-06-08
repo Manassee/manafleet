@@ -53,7 +53,7 @@ public class VehicleDbContext : DbContext
             // ── Spalten ───────────────────────────────────────────
             entity.Property(c => c.Id)
                   .HasColumnName("id")
-                  .ValueGeneratedNever(); // GUID wird in C# generiert, nicht von der DB
+                  ; 
 
             entity.Property(c => c.UnitNumber)
                   .HasColumnName("unit_number")
@@ -105,7 +105,7 @@ public class VehicleDbContext : DbContext
 
             entity.Property(m => m.Id)
                   .HasColumnName("id")
-                  .ValueGeneratedNever();
+                  ;
 
             entity.Property(m => m.UnitNumber)  .HasColumnName("unit_number")   .HasMaxLength(20);
             entity.Property(m => m.LicensePlate).HasColumnName("license_plate") .HasMaxLength(20);
