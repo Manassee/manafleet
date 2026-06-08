@@ -15,10 +15,4 @@
       <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.16" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Api\" />
-      <Folder Include="Data\" />
-      <Folder Include="Models\" />
-    </ItemGroup>
-
 </Project>
